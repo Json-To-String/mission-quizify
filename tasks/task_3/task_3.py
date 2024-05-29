@@ -47,6 +47,7 @@ class DocumentProcessor:
             # Allow multiple PDFs for ingestion
             #####################################
         uploaded_files = st.file_uploader(
+                "Upload a pdf",
                 type = 'pdf', 
                 accept_multiple_files = True
         )
