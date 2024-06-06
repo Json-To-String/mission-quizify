@@ -69,6 +69,7 @@ class DocumentProcessor:
                 # Use PyPDFLoader here to load the PDF and extract pages.
                 # https://python.langchain.com/docs/modules/data_connection/document_loaders/pdf#using-pypdf
                 # You will need to figure out how to use PyPDFLoader to process the temporary file.
+
                 loader = PyPDFLoader(temp_file_path)
                 
                 # Step 3: Then, Add the extracted pages to the 'pages' list.
