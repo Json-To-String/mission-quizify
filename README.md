@@ -23,4 +23,7 @@ Quizify is an app made to help students study for tests leveraging Google Gemini
 Quizify is made to ingest any number of PDFs, compare them using Vertex AI embeddings, and store them using the vector database method of ChromaDB.
 These, coupled with LangChain, allow us to harness multiple LLMs such as Vertex and Gemini to return helpful responses to quiz-takers and students.
 
-One important part of Quizify is the instant feedback with explanations in a user-friendly environment.
+One important part of Quizify is the instant feedback with explanations in a user-friendly environment. We also ensure that the questions generated 
+unique to help maximize studying efficiency.
+
+
